@@ -1,5 +1,7 @@
 export const Footer = ()=>{
     return(
-        <span>2024</span>
+        <footer>
+            <span>2024</span>
+        </footer>
     );
 }

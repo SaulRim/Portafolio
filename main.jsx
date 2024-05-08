@@ -5,6 +5,8 @@ import { MainSection } from './src/componets/MainSection'
 import { Experience } from './src/componets/Experience'
 import { Skills } from './src/componets/Skills'
 import { Footer } from './src/componets/Footer'
+import { About } from './src/componets/About'
+import { Contact } from './src/componets/Contact'
 
 
 const root = createRoot(document.getElementById('root'))
@@ -14,6 +16,8 @@ root.render(
     <MainSection/>
     <Experience/>
     <Skills/>
+    <About/>
+    <Contact/>
     <Footer/>
   </>
 )

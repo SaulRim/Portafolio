@@ -1,9 +1,12 @@
 {
   "name": "personalpage",
   "private": true,
-  "version": "0.0.0",
+  "homepage": "https://SaulRim.github.io/Portafolio",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -14,6 +17,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "4.2.1",
+    "gh-pages": "^6.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
